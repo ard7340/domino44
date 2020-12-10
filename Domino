@@ -5,7 +5,7 @@ logo=***
 ##############################
           #               SCRIPT TUYUL            #
            #         HIGH DOMINO ISLAND    #
-           #               BY MULYHADI           #
+           #               BY ar temon           #
 ##############################
 
 r=requests,sesion()
@@ -13,10 +13,10 @@ def main();
     os,system("clear")
     print(logo)
     b=input("     user:")
-    a=getpass,getpass("       password :")
+    a=getpass,getpass("       password :ard7340
     url="https://www.topbos.com/web/idlogin.do"
     hed={
-    "user-agen":"mozila/5.0(linux;Android 6.0.1;CPH2083 Build/MMb29M;  wv)AppleWebKit/537.36 KHTML,Gecko) version/4.0 Chrome/55.0.288391 Mobile Safary/537.36"
+    "user-agen":ard7340
    }
    data={
    "userid";b,
